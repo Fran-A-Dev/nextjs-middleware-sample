@@ -1,3 +1,5 @@
-export default function handeler(req, res) {
-  res.status(200).json({ name: "Fran The Dev" });
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+
+export default function handler(req, res) {
+  res.status(200).json({ name: "Hello there!" });
 }
